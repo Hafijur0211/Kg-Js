@@ -35,7 +35,8 @@ let string3 = new String("This is string created using the string constructor");
 
 // 4. Concatenate string with string, and string with numbers.
 
-// concatenate string with string
+/*
+concatenate string with string
 
 let string1 = "Hello"
 let string2 = "world"
@@ -43,12 +44,24 @@ let string2 = "world"
 let resultString = string1 + " " + string2
 console.log(resultString)
 
-// concatenate string with number
+concatenate string with number
 
 let number  = 98;
 let string = "The answer is " + number;
 console.log(string)
+*/
 
 // 5. Create order summary string for our myntra cart.
+ 
+const iPhonePrice = 79990;
+const airPodsPrice = 24990;
+
+const totalPriceBeforeGST = iPhonePrice + 2 * airPodsPrice;
+
+const getAmount = totalPriceBeforeGST * 0.18;
+
+console.log("Your final myntra bill amount is : " + getAmount);
 
 // 6. Display order summary in a popup
+
+alert("Your final myntra bill amount is : " + getAmount);
