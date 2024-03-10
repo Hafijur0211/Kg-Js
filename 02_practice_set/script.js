@@ -1,5 +1,13 @@
 // 1. At a restaurant you ate: 1 Dal Rs 100, 2 Roti Rs 10 each, 1 Ice Cream Rs 30, Calculate and display the final bill amount.
 
+const dalPrice = 100;
+const rotiPrice = 10;
+const icecreamPrice = 30;
+
+const totalBill = dalPrice + 2 * rotiPrice + icecreamPrice;
+
+console.log("Final bill amount : Rs " + totalBill);
+
 // 2. Calculate 18% GST on iPhone15 Rs.79,990 and 2 Air pods Pro Rs.24,990 each.
 
 // 3. Create a string using 3 all methods.
